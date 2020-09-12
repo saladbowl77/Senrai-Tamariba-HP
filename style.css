@@ -1,0 +1,23 @@
+html,body,header,main,footer,section,div,img,h1,h2,p,a {margin: 0; padding: 0;}
+
+h1, h2, p, a {font-family: "M PLUS 1p", "源真ゴシック", "Helvetica Neue",Helvetica,Arial, YuGothic, 'Yu Gothic', 游ゴシック体, '游ゴシック', "ヒラギノ角ゴ ProN W3","Hiragino Kaku Gothic ProN","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ", Meiryo,"MS ゴシック","MS Gothic",sans-serif; color: #404040;}
+
+body {background-color: #fff3ec;}
+
+header {display: block; width: calc(100vw - 10px); padding-left: 10px; background-color: #a3b2e8;}
+
+main {width: 90vw; max-width: 1000px; margin: 0 auto;}
+
+.discord_join {display: block; width: calc(90% - 20px); max-width: 900px; margin: 5px auto; height: 50px; padding: 5px 10px; border-radius: 15px; background-color: #7289da; text-align: center; color: #ffffff; line-height: 50px; text-decoration: none; font-size: 1.3rem;}
+.discord_join::before {content: ''; display: inline-block; width: 1.5rem; height: 1.5rem; background-image: url(./discord_icon.PNG); background-size: contain; vertical-align: middle;}
+
+.comments {width: 100%; margin: 1.5em 0; overflow: hidden;}
+.comments .faceicon {float: left; margin-right: -90px; width: 80px;}
+.comments .faceicon img{width: 100%; height: auto; border: solid 3px #ecbcef; border-radius: 50%;}
+.comments .chatting {width: 100%;}
+.says {display: inline-block; position: relative; margin: 5px 0 0 105px; padding: 17px 13px; border-radius: 12px; background: #ecbcef;}
+.says:after {content: ""; display: inline-block; position: absolute; top: 18px; left: -24px; border: 12px solid transparent; border-right: 12px solid #ecbcef;}
+
+iframe {width: 100%; max-width: 700px; height: 600px; margin: 10px auto; display: block;}
+
+footer {background-color: #edefef; width: 100%; text-align: center; margin-top: 5px; padding: 10px 0;}
